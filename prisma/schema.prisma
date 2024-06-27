@@ -36,9 +36,10 @@ model Appointment {
   name String
   email String
 
-  phone Int?
+  phone String?
   clinic String?
 
+  date String?
   time String?
   problem String
   message String?
